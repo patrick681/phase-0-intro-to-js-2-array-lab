@@ -1,4 +1,6 @@
 require ( './helpers.js' );
+import { cats } from '../index.js';
+import { expect } from 'chai';
 
 describe('index.js', function () {
   describe('cats', function () {
